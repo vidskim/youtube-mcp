@@ -10,7 +10,7 @@ https://vidskim.com/api/mcp
 
 Remote server, Streamable HTTP, OAuth 2.1 with dynamic client registration. Nothing to install, no API key: paste the URL and sign in with Google.
 
-Website and docs: [vidskim.com/mcp](https://vidskim.com/mcp) · Registry: `com.vidskim/youtube`
+Website and docs: [vidskim.com/mcp](https://vidskim.com/mcp) · Registry: `com.vidskim/youtube` · Listed in the [Claude connector directory](https://claude.ai/directory/vidskim)
 
 ## Tools
 
@@ -27,6 +27,10 @@ All tools are read-only. Vidskim never posts, comments, or touches your YouTube 
 ## Connect
 
 ### Claude (claude.ai, Desktop, mobile)
+
+Vidskim is listed in the Claude connector directory. Open [claude.ai/directory/vidskim](https://claude.ai/directory/vidskim), click **Connect to Claude**, sign in with Google, and press **Allow**.
+
+Or add it as a custom connector:
 
 1. Open **Settings → Connectors** and choose **Add custom connector**.
 2. Name it **Vidskim** and paste `https://vidskim.com/api/mcp`.
